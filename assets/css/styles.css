@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  background-image: url(https://images7.alphacoders.com/370/thumb-1920-370528.jpg);
+  background-size: contain;
+  /* height: 250vh; */
+  height: auto;
+  width: 100vw;
+  font-family: "Merriweather", serif;
+  font-family: "PT Sans", sans-serif;
+}
+
+.background {
+}
+
+header {
+  width: 100%;
+  background-color: rgba(7, 113, 20, 0.203);
+}
+
+h1 {
+  color: rgb(147, 237, 189);
+  text-align: center;
+  font-size: 30px;
+}
+
+.header ul {
+  text-align: center;
+}
+.header ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(251, 251, 255);
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 25px;
+}
+
+.header ul li a :hover {
+  font-size: 200%;
+  color: red;
+}
+
+.main-banner {
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 100px;
+}
+
+.banner-title {
+  color: rgb(147, 237, 189);
+  margin-left: 630px;
+
+  padding: 30px;
+  font-size: 20px;
+}
+
+.banner-item-1 {
+  padding: 100px;
+  color: azure;
+}
+
+p {
+  color: azure;
+  padding: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.project-title {
+  color: rgb(147, 237, 189);
+  margin-left: 630px;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.main-projects {
+  padding: 10px;
+  color: azure;
+}
+.more-skills {
+  color: (147, 237, 189);
+  margin-left: 1130px;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.all-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.all-title {
+  color: rgb(147, 237, 189);
+  margin-left: 630px;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.all-projects {
+  padding: 10px;
+  color: azure;
+}
+.more-projects {
+  color: (147, 237, 189);
+  margin-left: 970px;
+  padding: 30px;
+  font-size: 20px;
+}
+.contact-me {
+  position: absolute;
+  margin-left: 630px;
+}
+.contact-title h1 {
+  font-size: 40px;
+}
