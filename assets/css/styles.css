@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(https://images7.alphacoders.com/370/thumb-1920-370528.jpg);
+  background-image: url(https://wallpaperaccess.com/full/7026844.jpg);
   background-size: contain;
   /* height: 250vh; */
   height: auto;
@@ -14,18 +14,25 @@ body {
   font-family: "PT Sans", sans-serif;
 }
 
-.background {
-}
-
 header {
   width: 100%;
   background-color: rgba(7, 113, 20, 0.203);
 }
 
 h1 {
-  color: rgb(147, 237, 189);
-  text-align: center;
-  font-size: 30px;
+  position: relative;
+  font-size: 7vw;
+  color: #154e05;
+  -webkit-text-stroke: 0.3vw #20b512f4;
+  text-transform: uppercase;
+}
+
+br {
+  border: 1px;
+}
+
+h2 .space {
+  padding: 30px;
 }
 
 .header ul {
@@ -52,6 +59,9 @@ h1 {
 }
 
 .main-banner {
+  background-image: url(https://i.pinimg.com/originals/13/31/20/13312045ba691fcb8d1fbae330d937e0.gif);
+  background-size: contain;
+  width: 100vw;
 }
 
 .banner-container {
@@ -62,16 +72,23 @@ h1 {
 }
 
 .banner-title {
-  color: rgb(147, 237, 189);
-  margin-left: 630px;
+  padding: 15px;
 
-  padding: 30px;
-  font-size: 20px;
+  position: relative;
+  font-size: 2vw;
+  color: #154e05;
+  -webkit-text-stroke: 0.05vw #20b512f4;
+  text-transform: uppercase;
 }
+]
 
 .banner-item-1 {
   padding: 100px;
   color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
 }
 
 p {
@@ -87,7 +104,7 @@ p {
 }
 
 .project-title {
-  color: rgb(147, 237, 189);
+  color: #20b512f4;
   margin-left: 630px;
   padding: 30px;
   font-size: 20px;
@@ -96,7 +113,18 @@ p {
 .main-projects {
   padding: 10px;
   color: azure;
+  position: relative;
+  width: 20rem;
+  margin: 2rem;
+  border: 1px solid var(--font-info);
 }
+
+.main-projects img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .more-skills {
   color: (147, 237, 189);
   margin-left: 1130px;
@@ -111,15 +139,24 @@ p {
 }
 
 .all-title {
-  color: rgb(147, 237, 189);
+  color: #20b512f4;
   margin-left: 630px;
   padding: 30px;
   font-size: 20px;
 }
 
 .all-projects {
-  padding: 10px;
   color: azure;
+  position: relative;
+  width: 20rem;
+  margin: 2rem;
+  border: 1px solid var(--font-info);
+}
+
+.all-projects img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .more-projects {
   color: (147, 237, 189);
@@ -131,6 +168,7 @@ p {
   position: absolute;
   margin-left: 630px;
 }
-.contact-title h1 {
+.contact-title {
   font-size: 40px;
+  color: #20b512f4;
 }
