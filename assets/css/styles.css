@@ -1,3 +1,10 @@
+:root {
+  --dark: #1b1a17;
+  --darkOrange: #f0a500;
+  --tOrange: #e45826;
+  --light: #e6d5b8;
+}
+
 * {
   margin: 0;
   font-family: "Merriweather", serif;
@@ -17,6 +24,9 @@ body {
 header {
   width: 100%;
   background-color: rgba(7, 113, 20, 0.203);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 h1 {
@@ -27,12 +37,8 @@ h1 {
   text-transform: uppercase;
 }
 
-br {
-  border: 1px;
-}
-
-h2 .space {
-  padding: 30px;
+p {
+  color: aliceblue;
 }
 
 .header ul {
@@ -62,13 +68,15 @@ h2 .space {
   background-image: url(https://i.pinimg.com/originals/13/31/20/13312045ba691fcb8d1fbae330d937e0.gif);
   background-size: contain;
   width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 .banner-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding: 100px;
+  justify-content: flex-start;
+  padding: 100;
 }
 
 .banner-title {
@@ -80,27 +88,18 @@ h2 .space {
   -webkit-text-stroke: 0.05vw #20b512f4;
   text-transform: uppercase;
 }
-]
 
 .banner-item-1 {
-  padding: 100px;
-  color: azure;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 100px;
-}
-
-p {
   color: azure;
   padding: 20px;
+  margin-top: 100px;
 }
 
 .main-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 30px;
+  padding: 20px;
 }
 
 .project-title {
@@ -111,25 +110,16 @@ p {
 }
 
 .main-projects {
-  padding: 10px;
+  padding: 30px;
   color: azure;
   position: relative;
-  width: 20rem;
-  margin: 2rem;
-  border: 1px solid var(--font-info);
+  width: 10rem;
+  object-fit: contain;
 }
-
 .main-projects img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-}
-
-.more-skills {
-  color: (147, 237, 189);
-  margin-left: 1130px;
-  padding: 30px;
-  font-size: 20px;
 }
 
 .all-container {
@@ -141,22 +131,23 @@ p {
 .all-title {
   color: #20b512f4;
   margin-left: 630px;
-  padding: 30px;
+  padding: 10px;
   font-size: 20px;
 }
 
 .all-projects {
+  padding: 30px;
   color: azure;
   position: relative;
-  width: 20rem;
-  margin: 2rem;
-  border: 1px solid var(--font-info);
+  width: 10rem;
+  object-fit: contain;
 }
 
 .all-projects img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  background-color: azure;
 }
 .more-projects {
   color: (147, 237, 189);
