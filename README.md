@@ -1,25 +1,28 @@
 # my-portfolio
 
-flexbox (responsive)
-media queries (responsive)
-CSS variables (coolors.co export their css variables for colors)
+## what i was tasked to do:
 
-Projects
+- to create a responsive flexbox
+- to make my portfolio responsive with media queries
+- export css variable colors
+- that the nav links should direct to relevant section using anchor tags.
+- that the first project card should be larger than the rest
+- the project card images should be able to open in new tab and be clickable.
+
+## My projects:
 
 - Horiseon (Marketing Agency Refactor)
-- Placeholder - Personal Portfolio
-- Placeholder - Password Generator
-- Placeholder - Code Quiz
-- Placeholder - Day Planner
-- Placeholder - Weather Dashboard
-- Placeholder - Project 1
+- Personal Portfolio
+- Password Generator
+- Code Quiz
+- Day Planner
+- Weather Dashboard
+- Project 1
 
-BDD - Behaviour Driven Development
+## pieces of the portolio:
 
-Pieces of the Portfolio
-
-- Your name
-- A recent photo
+- My name
+- A photo
 - Nav links
   - About Me
     - Name
@@ -27,14 +30,11 @@ Pieces of the Portfolio
     - Image
     - Skills
   - My Projects
-    - Project card should have an clickable image to deployed app, a title, brief description (optional), a github icon which directs to the project repo (optional)
-  - Work Experience (optional)
-  - My Interests (optional)
+    - Project card should have an clickable image to deployed app, a title, brief description , a github icon which directs to the project repo
   - Contact Me
 
-Requirements
+## My links
 
-- Nav links should scroll to section (anchor tag href and corresponding id should match)
-- First project card should be larger than the rest
-- Project card images should be clickable (wrap within anchor tag) and should open in new tab
-- Responsive
+-github url: [https://github.com/abdinasir1993/my-portfolio](https://github.com/abdinasir1993/my-portfolio)
+
+-deployed url:[https://abdinasir1993.github.io/my-portfolio/](https://abdinasir1993.github.io/my-portfolio/)
