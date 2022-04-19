@@ -22,10 +22,15 @@ body {
 }
 
 header {
+  width: 100vw;
+  height: 3.5rem;
+  top: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: #154e05;
+  position: fixed;
+  z-index: 10;
 }
 
 h1 {
@@ -63,6 +68,7 @@ hr {
 }
 
 .main-banner {
+  margin-top: 2.8rem;
   background-image: url(https://i.pinimg.com/originals/13/31/20/13312045ba691fcb8d1fbae330d937e0.gif);
   background-size: contain;
   width: 100vw;
@@ -122,11 +128,23 @@ hr {
   height: 15rem;
   object-fit: cover;
 }
+
+.project-one-resize {
+  width: 12rem;
+  height: 17rem;
+}
+
 .project-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   padding: 0.625rem;
+}
+
+.project-card :hover {
+  width: 120%;
+  height: 115%;
+  cursor: pointer;
 }
 
 .all-projects {
@@ -143,12 +161,6 @@ hr {
   font-size: 1.25rem;
 }
 
-.more-projects {
-  color: (147, 237, 189);
-  margin-left: 60.625rem;
-  padding: 1.875rem;
-  font-size: 1.25rem;
-}
 .contact-me {
   position: absolute;
   align-items: center;
@@ -184,9 +196,21 @@ hr {
 }
 
 @media only screen and (max-width: 596px) {
+  header {
+    height: 16rem;
+  }
   .navbar {
     flex-direction: column;
     align-items: center;
+  }
+
+  .main-banner {
+    margin-top: 16rem;
+    text-align: center;
+  }
+
+  .about-title {
+    font-size: 1.5rem;
   }
 
   .featured-projects {
@@ -195,16 +219,23 @@ hr {
   }
   .all-projects {
     flex-direction: column;
+    align-items: center;
   }
   .all-title {
+    margin: 0px;
     flex-direction: column;
+    align-items: center;
   }
   .footer {
+    margin-top: 19rem;
     flex-direction: column;
     align-items: center;
   }
   .name {
     margin: 0px;
+  }
+
+  .contact-me {
   }
 
   .footer i {
