@@ -24,6 +24,7 @@
 - My name
 - A photo
 - Nav links
+
   - About Me
     - Name
     - Personal statement
@@ -38,3 +39,13 @@
 -github url: [https://github.com/abdinasir1993/my-portfolio](https://github.com/abdinasir1993/my-portfolio)
 
 -deployed url:[https://abdinasir1993.github.io/my-portfolio/](https://abdinasir1993.github.io/my-portfolio/)
+
+## Screenshots
+
+### mobile Viewports
+
+![mobile viewport](./assets/images/screencapture-127-0-0-1-5500-index-html-2022-04-19-21_58_35.png)
+
+### desktop Viewports
+
+![desktop viewport](./assets/images/screencapture-127-0-0-1-5500-index-html-2022-04-19-21_56_54.png)
