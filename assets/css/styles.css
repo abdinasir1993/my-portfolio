@@ -137,11 +137,17 @@ hr {
   width: 10rem;
   height: 15rem;
   object-fit: cover;
+  margin-top: ;
 }
 
 .project-one-resize {
-  width: 12rem;
-  height: 17rem;
+  padding: 1.875rem;
+  color: azure;
+  position: relative;
+  width: 20rem;
+  height: 30rem;
+  object-fit: cover;
+  margin-right: 2rem;
 }
 
 .project-card img {
@@ -155,6 +161,7 @@ hr {
   width: 120%;
   height: 115%;
   cursor: pointer;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(31, 64, 5);
 }
 
 /* all projects styling */
