@@ -109,6 +109,16 @@ hr {
   padding: 2.25rem;
   margin-top: 0.391rem;
   font-size: 2rem;
+  width: 50vw;
+}
+.skills-icons {
+  display: flex;
+  flex-direction: row;
+}
+.fa-brands {
+  color: azure;
+  height: 5rem;
+  width: 5rem;
 }
 
 /* projects styling */
