@@ -1,274 +1,277 @@
-<!DOCTYPE html>
-<html lang="en">
+<<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-   <link
-   rel="stylesheet"
-   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-   integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-   crossorigin="anonymous"
-   referrerpolicy="no-referrer"
- />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,900&family=PT+Sans&display=swap");
-    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>my portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+	integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+	crossorigin="anonymous"
+	referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   </head>
   <body>
-    <!-- page header with nav bar -->
+    <!-- Hero and Nav -->
+    <section class="hero late-gray-bg is-fullheight custom-font">
+      <div class="hero-head">
+        <nav class="navbar is-primary is-fixed-top">
+          <div
+            class="is-flex is-justify-content-space-between w-full px-1 py-3 late-gray-bg"
+          >
+            <div class="navbar-brand">
+              <a class="navbar-item" href="#"
+                
+                <p class="title has-text-primary">MY PORTFOLIO</p>
+              </a>
+            </div>
 
-    <header>
-      <nav class="navbar">
-        <!-- About me -->
-        <div class="nav-item">
-          <a class="nav-anchor" href="#about-me" >ABOUT ME</a>
-        </div>
-
-         <!-- featured-projects -->
-        <div class="nav-item"">
-          <a class="nav-anchor"  href="#featured-projects">FEATURED PROJECTS</a>
-        </div>
-
-        <!-- all-projects -->
-
-        <div class="nav-item"">
-          <a class="nav-anchor"  href="#all-projects">ALL PROJECTS</a>
-        </div>
-
-         <!-- contact -->
-         <div class="nav-item"">
-          <a class="nav-anchor"  href="#contact-me">CONTACT</a>
-        </div>
-      </nav>
-    </header>
-
-    <!-- main content of the webpage -->
-    <main>
-      <!-- banner component -->
-
-      <div class="main-banner">
-        <div class="banner-title">
-          <h1>HI I'M ABDINASIR</h1>
-          <br />
-          <h1>A WEB DEVELOPER.</h1>
-        </div>
-
-        
-        </div>
+            <div class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item" href="#about"> ABOUT ME </a>
+               
+                <a class="navbar-item" href="#skills">PROJECTS </a>
+                
+                <a class="navbar-item" href="#contact">CONTACT </a>
+                
+              </div>
+            </div>
+            <span class="navbar-burger" data-target="navbarMenuHeroB">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroB" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item mobile-menu" href="#about"> About </a>
+            
+              <a class="navbar-item mobile-menu" href="#skills">projects </a>
+              
+              <a class="navbar-item mobile-menu" href="#contact">Contact </a>
+              <span class="navbar-item is-flex is-justify-content-center">
+                
+                  
+                </a>
+              </span>
+            </div>
+          </div>
+        </nav>
       </div>
 
-
-
-
-      
-
-      <!-- about me section -->
-
-      <section id="about-me" class="aboutme">
-        <h2   class="about-title" >About Me</h2>
-        <div class="Aboutme-container">
-          <div class="aboutme-item-1">
-            <img class="banner-img" src="./assets\images\avatar.png" alt=" avatar image black" />
-          </div>
-          <div class="aboutme-item-1">
-            <p>
-              I am a self-motivated individual with a
-              positive outlook in life. I am well organised and have a
-              methodical approach to work and always willing to take on any
-              challenge I enjoy learning new skills and I can grasp new concepts
-              quickly and easily. I am an efficient and organized person who
-              likes to try out new challenges. I’m a versatile worker, as I have
-              a wide range of different skills.
-            </p> <br>
-            <div class="skills-icons">
-              <div><i class="fa-brands fa-html5 fa-2xl"></i></div>
-            <div><i class="fa-brands fa-js fa-2xl"></i></div>
-            <div><i class="fa-brands fa-css3 fa-2xl"></i></div>
-            <div><i class="fa-brands fa-bootstrap fa-2xl"></i></div>
-            
-          </div>
-          <p>Currently learning back end and will be done in 2months. skills i will attain alongside many more: </p> <br>
-            
-          <div class="skills-icons">
-         
-            <div><i class="fa-brands fa-node fa-xl"></i></div>
-              <div><i class="fa-brands fa-react fa-xl"></i></div>
-            </div>
-          
-          </div>
-
-          
-
-      </section>
-      <hr>
-
-
-
-      <!-- featured projects -->
-
-      <section>
-        
-        <div>
-          <div id="featured-projects" class="project-title"><h2>FEATURED PROJECTS</h2></div>
-
-          <div  class="featured-projects">
-
-            <div class="project-card project-one-resize">
-              <h3>LIBRARY OF KNOWLEDGE</h3>
-              <!-- make sure put alt description in images -->
-
-              <a target="_blank" href="https://aosman0.github.io/library-of-knowledge/"> 
-
-              <img src="./assets\images\project 1.png" alt="picture of people surounding office table" />
-             </a>
-            </div>
-
-            <div>
-
-            <div class="project-card">
-              <h3>PROJECT 2: Weatherboard</h3>
-              <a target="_blank" href="https://abdinasir1993.github.io/weather-dashboard/"> 
-              <img src="./assets\images\weatherdashboard.png" alt="weather app on phone" />
-              </a>
-            </div>
-            <div class="project-card">
-              <h3>PROJECT 3: Day Planner </h3>
-              <a target="_blank" href="https://abdinasir1993.github.io/day-planner/"> 
-              <img
-                src="./assets\images\day planner.png"
-                alt="phone with writing on the screen"
-              />
-             </a>
-
-        
+      <div class="hero-body p-0 custom-font">
+        <div class="main-hero"></div>
+        <div class="container has-text-centered">
+          <p data-aos="zoom-out-down" class="subtitle font-light">Hi, I'm</p>
+          <h1 data-aos="zoom-out" class="title font-light is-1">
+            <em> abdinasir</em>
+          </h1>
+          <p data-aos="zoom-out-up" class="subtitle font-light">
+            Web Developer
+          </p>
         </div>
+      </div>
+    </section>
+    <!-- End Hero and Nav -->
+    <!-- About -->
+    <div id="about" class="pt-6"></div>
+    <section class="block py-6 custom-font">
+      <div class="column is-4 mx-auto">
+        <h2 data-aos="fade-out" class="title has-text-centered is-uppercase">
+          About Me
+        </h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="columns mx-0">
+        <div class="column is-5 m-auto p-6">
+          <img class="avatar" data-aos="fade-up" src="./assets/images/avatar.png" alt="">
+          <p data-aos="fade-up">
+
+            I am a self-motivated individual with a
+            positive outlook in life. I am well organised and have a
+            methodical approach to work and always willing to take on any
+            challenge I enjoy learning new skills and I can grasp new concepts
+            quickly and easily. I am an efficient and organized person who
+            likes to try out new challenges.
+          </p>
+		   <div  class="skills-icons">
+			<div><i class="fa-brands fa-html5 fa-2xl"></i></div>
+		  <div><i class="fa-brands fa-js fa-2xl"></i></div>
+		  <div><i class="fa-brands fa-css3 fa-2xl"></i></div>
+		  <div><i class="fa-brands fa-bootstrap fa-2xl"></i></div>
+		  
+		</div>
         </div>
+        <figure data-aos="fade-down" class="image p-6 m-auto column is-5">
+			<h2 data-aos="fade-out" class="title has-text-centered is-uppercase">
+				Main project
+			  </h2>
+         <a target="_blank" href="https://aosman0.github.io/library-of-knowledge/"> <img
+            class="standard-radius"
+            src="./assets/images/project 1.png"
+            alt=""
+          /> </a>
+          <span class="title font-light">library of knowledge</span>
+        </figure>
+      </div>
+    </section>
+
+
+
+ 
+
+	<!-- end of project -->
+    <div id="skills" class="pt-6 hero is-light"></div>
+    <section class="hero late-gray-bg custom-font">
+      <div class="column is-4 mx-auto pt-6">
+        <h2
+          class="title has-text-centered is-uppercase font-light"
+          data-aos="fade-down"
+        >
+          My Projects
+        </h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="project-card columns m-6 is-multiline has-text-centered">
+        <div class="column is-4 my-6 px-2" data-aos="fade-down">
+          <h3 class="title is-3 font-light">Weather board</h3>
+         <a target="_blank" href="https://abdinasir1993.github.io/weather-dashboard/"> <img src="./assets/images/weatherdashboard.png" alt=""></a>
         </div>
-      </section>
-      
-
-      <!-- all projects -->
-      <section>
-        <div>
-          <div id="all-projects" class="all-title"><h2>All PROJECTS</h2></div>
-
-          <div class="all-projects">
-            <div class="project-card">
-              <h3>PROJECT 1: Horiseon</h3>
-              <!-- make sure put alt description in images -->
-
-             
-
-             <a target="_blank" href="https://abdinasir1993.github.io/marketing-agency-refractor-project/"> <img src="./assets/images/before.png" alt="picture of people surounding office table" />
-            </a>
-            </div>
-
-            <div class="project-card">
-              <h3>PROJECT 2: Portfolio </h3>
-              <a target="_blank" href="https://abdinasir1993.github.io/my-portfolio/"> 
-              <img src="./assets/images/Untitled.png" alt=" picture with writing and matrix background" />
-              </a>
-              
-            </div>
-            <div class="project-card">
-              <h3>PROJECT 3: Password Generator </h3>
-
-              <a target="_blank" href=" https://abdinasir1993.github.io/password-generator/"> 
-              <img
-                src="./assets\images\password generator.png"
-                alt="mobile phne wit password generator written on the screen"
-              />
-              </a>
-              
-            </div>
-            <div id="all-projects" class="project-card">
-              <h3>PROJECT 4: Code Quiz</h3>
-              <a target="_blank" href="https://abdinasir1993.github.io/codequiz/"> 
-              <img src="./assets\images\code-quiz.png" alt=" blue and red sqaure with quiz" />
-              </a>
-            </div>
-            <div class="project-card">
-              <h3>PROJECT 5: Day Planner</h3>
-              <a target="_blank" href="https://abdinasir1993.github.io/day-planner/"> 
-              <img src="./assets\images\day planner.png" alt=" fun writting and decoration written n mobile phone screen" />
-              </a>
-            </div>
-            <div class="project-card">
-              <h3>PROJECT 6: Weather Dashboard</h3>
-              <a target="_blank" href="https://abdinasir1993.github.io/weather-dashboard/"> 
-              <img src="./assets\images\weatherdashboard.png" alt="details of day weather written on mobile" />
-              </a>
-            </div>
-            <div class="project-card">
-              <h3>PROJECT 7: Project 1</h3>
-              <a target="_blank" href="https://aosman0.github.io/library-of-knowledge/"> 
-              <img src="./assets\images\project 1.png" alt="" />
-             </a>
-            </div>
-          </div>
-          <br />
-          https://github.com/AOsman0/library-of-knowledge
-          
+        <div class="project-card column is-4 my-6 px-2" data-aos="fade-down">
+          <h3 class="title is-3 font-light">Day Planner</h3>
+		  <a target="_blank" href="https://abdinasir1993.github.io/day-planner/"><img src="./assets/images/day planner.png" alt=""></a>
         </div>
-      </section>
-      <br />
-
-      <!-- registration form component -->
-      <section>
-        <div id="contact-me" class="contact-me">
-          <div class="contact-title"><h2>Contact Me Form</h2></div>
-          <form action="#" method="post"></form>
-          <p>Full Name:</p>
-          <input type="text" name="fullname" placeholder="Full Name" />
-          <p>Email:</p>
-          <input type="text" name="emailaddress" placeholder="email address" />
-          <p>contact number:</p>
-          <input
-            type="text"
-            name="contactnumber"
-            placeholder="contact number"
-          />
-          <button type="submit">Submit</button>
+        <div class="project-card column is-4 my-6 px-2" data-aos="fade-down">
+          <h3 class="title is-3 font-light">Code quiz</h3>
+          <a target="_blank" href="https://abdinasir1993.github.io/codequiz/"><img src="./assets/images/code-quiz.png" alt=""></a>
         </div>
 
-        
-      </section>
-    </main>
-    <br>
-
-    <!-- footer section to include contact links -->
    
-
-      <footer class="footer">
-        
-        <div class="footer-icon">
-        <a class="footer-link" href="https://github.com/abdinasir1993/"> 
-        <i class="devicon-linkedin-plain"></i> 
-        </a>
-        </div>
-        
-        <div class="footer-icon">
-        <a class="footer-link" href="https://github.com/abdinasir1993/">
-        <i class="devicon-twitter-original"></i>
-        </a>
-        </div>
-        
-        <div class="footer-icon">
-        <a class="footer-link" href="https://github.com/abdinasir1993/">
-        <i class="devicon-github-original"></i>
-        </a> 
-        </div>
-
-        <div class="footer-icon" >
-        <p class="name">© warsame</p>
-        </div>
-        </footer>
-        
-
+      </div>
+    </section>
+    <!-- End My Skills -->
     
+    <!-- Contact Me -->
+    <div id="contact" class="py-6"></div>
+    <section class="hero is-light py-6 custom-font">
+      <div class="column my-3 is-4 mx-auto">
+        <h2 class="title has-text-centered is-uppercase" data-aos="fade-down">
+          Contact Me
+        </h2>
+        <div class="title-underline"></div>
+      </div>
+      <form class="form" action="">
+        <div class="field">
+          <label class="label">Name</label>
+          <p class="control has-icons-left">
+            <input
+              class="input is-primary"
+              type="text"
+              placeholder="How may I call you?"
+            />
+            <span
+              class="iconify icon is-small is-left p-1"
+              data-icon="fe:user"
+            ></span>
+          </p>
+        </div>
+        <div class="field">
+          <label class="label">Email</label>
+          <p class="control has-icons-left">
+            <input
+              class="input is-primary"
+              type="email"
+              placeholder="your@email.com"
+            />
+            <span
+              class="iconify icon is-small is-left p-1"
+              data-icon="fe:mail"
+            ></span>
+          </p>
+        </div>
+        <div class="field">
+          <label class="label">Message</label>
+          <p class="control has-icons-left">
+            <textarea
+              class="textarea input is-primary"
+              placeholder="Type your message here"
+            ></textarea
+            ><span
+              class="iconify icon is-small is-left p-1"
+              data-icon="fe:pencil"
+            ></span>
+          </p>
+        </div>
+        <button class="button is-primary is-outlined">Submit</button>
+      </form>
+    </section>
+  
+    <footer class="footer late-gray-bg custom-font">
+		<div class="footer-icon">
+			 
+			<i class="devicon-linkedin-plain"></i> 
+			</a>
+			</div>
+			
+			<div class="footer-icon">
+			
+			<i class="devicon-twitter-original"></i>
+			</a>
+			</div>
+			
+			<div class="footer-icon">
+			
+			<i class="devicon-github-original"></i>
+			</a> 
+			</div>
+	
+			<div class="footer-icon" >
+			<p class="name">© warsame</p>
+			</div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Script -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(
+          document.querySelectorAll(".navbar-burger"),
+          0
+        );
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+          // Add a click event on each of them
+          $navbarBurgers.forEach((el) => {
+            el.addEventListener("click", () => {
+              // Get the target from the "data-target" attribute
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+
+              // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+              el.classList.toggle("is-active");
+              $target.classList.toggle("is-active");
+            });
+          });
+        }
+      });
+
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <!-- End Script -->
   </body>
 </html>
