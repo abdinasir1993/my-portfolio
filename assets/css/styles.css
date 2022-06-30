@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 ::-moz-selection {
   background-color: #00d1b2;
 }
@@ -11,7 +11,7 @@ html {
 }
 
 .custom-font {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .standard-radius {
@@ -80,7 +80,7 @@ html {
   left: 0;
   bottom: 0;
   height: 100%;
-  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Laptop-Background.jpg");
+  background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Laptop-Background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,26 +104,23 @@ html {
   object-fit: cover;
   padding: 0.625rem;
 }
-.footer {
-  padding: 25px;
-  margin-top: 250px;
+
+.links-container {
+  margin-top: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: #fcfcfc;
+  color: #00d1b2;
 }
 
 .footer-icon {
   margin: 20px;
   margin-left: 3rem;
 }
-.footer-icon a {
-  text-decoration: none;
-  color: green;
-}
-.footer-icon:hover a {
+
+.footer-icon:hover i {
   cursor: pointer;
-  color: azure;
+  font-size: 3rem;
 }
 .footer-icon i {
   font-size: 2rem;
