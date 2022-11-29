@@ -90,6 +90,7 @@ html {
 .is-large {
   padding: 10rem 0;
 }
+
 .skills-icons {
   display: flex;
   flex-direction: row;
@@ -102,11 +103,10 @@ html {
   width: 20rem;
 }
 .project-card-img {
-  width: 80%;
-  height: 80%;
+  width: 80rem;
+  height: 18rem;
   object-fit: cover;
   overflow: hidden;
-  margin-bottom: 10px;
 }
 
 .links-container {
@@ -117,18 +117,6 @@ html {
   color: #00d1b2;
 }
 
-.footer-icon {
-  margin: 20px;
-  margin-left: 3rem;
-}
-
-.footer-icon:hover i {
-  cursor: pointer;
-  font-size: 3rem;
-}
-.footer-icon i {
-  font-size: 2rem;
-}
 figure {
   position: relative;
   overflow: hidden;
@@ -182,6 +170,151 @@ figure:hover span {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+/* cards section */
+.services-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.services-container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.s-card-container {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 78vh;
+}
+
+.card-content {
+  position: relative;
+  text-align: center;
+  background: #23282f;
+  height: 30rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 10px 20px #00d1b2;
+  margin-left: 5rem;
+}
+.card-content::after {
+  position: absolute;
+  content: '';
+  height: 240%;
+  width: 275%;
+  left: -50%;
+  top: -50%;
+  background: conic-gradient(#00d1b2, #0e6054, #032621, #09433a);
+  animation: rgb 2s infinite linear;
+}
+@keyframes rgb {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.card-content::before {
+  content: '';
+  inset: 3px;
+  position: absolute;
+  z-index: 2;
+  background: linear-gradient(#00d1b2, #0e6054, #00d1b2, #09433a);
+}
+.content {
+  position: relative;
+  z-index: 3;
+  padding: 20px;
+  text-align: center;
+}
+/* neon button */
+.neon-button {
+  position: relative;
+  display: inline-block;
+
+  color: #00d1b2;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 17px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.neon-button:hover {
+  color: white;
+  background: #00d1b2;
+  box-shadow: 0 0 10px #00d1b2, 0 0 40px #00d1b2, 0 0 80px #00d1b2;
+  transition-delay: 1s;
+}
+
+.neon-button span {
+  position: absolute;
+  display: block;
+}
+
+.neon-button span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgb(255, 255, 255));
+}
+
+.neon-button:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+
+.neon-button span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #f0f0f0);
+}
+
+.neon-button:hover span:nth-child(3) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+.neon-button span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, rgb(#00d1b2));
+}
+
+.neon-button:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+.neon-button span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #00d1b2);
+}
+
+.neon-button:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
 
 @-webkit-keyframes menuAnimation {
   0% {
@@ -198,6 +331,15 @@ figure:hover span {
   }
   100% {
     margin-top: 0;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .services-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
