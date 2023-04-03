@@ -98,6 +98,7 @@ html {
   margin-top: 3rem;
   color: #00d1b2;
 }
+
 .image-container {
   height: 15rem;
   width: 20rem;
@@ -111,6 +112,7 @@ html {
 
 .links-container {
   margin-top: 3rem;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
